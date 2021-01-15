@@ -27,7 +27,7 @@
     <rosparam file="$(find challenge_1)/params/costmap_global.yaml" command="load" ns="global_costmap" unless="$(arg no_static_map)"/>
     
     <!-- global costmap with laser, for odom_navigation_demo -->
-    <rosparam file="$(find challenge_1)/params/costmap_global.yaml" command="load" ns="global_costmap" if="$(arg no_static_map)"/>
+    <rosparam file="$(find challenge_1)/params/costmap_local.yaml" command="load" ns="local_costmap" if="$(arg no_static_map)"/>
     <param name="global_costmap/width" value="100.0" if="$(arg no_static_map)"/>
     <param name="global_costmap/height" value="100.0" if="$(arg no_static_map)"/>
   </node>
