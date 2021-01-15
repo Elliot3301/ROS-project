@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="challenge_1" name="send_goals" type="send_goals.py" output="screen"> 
+  </node>
+</launch>
