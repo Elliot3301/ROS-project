@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<launch>
+<launch>a
 
   <arg name="scan_topic" default="/scan" />
 
@@ -12,8 +12,8 @@
 
       map_update_interval: 0.5 # Publish new map
 
-      maxUrange: 5.5 # Should be just less than sensor range
-      maxRange: 6.1 # Should be just greater than sensor range
+      maxUrange: 7.5 # Should be just less than sensor range
+      maxRange: 10 # Should be just greater than sensor range
       particles: 100 # Increased from 80
 
       # Update frequencies
