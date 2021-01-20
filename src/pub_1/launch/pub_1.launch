@@ -1,5 +1,0 @@
-<launch>
-    <node pkg="pub_1" type="script_pub.py" name="test_1" output="screen">
-        
-    </node>
-</launch>
