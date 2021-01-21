@@ -1,8 +1,8 @@
 base_frame: base_link
 odom_frame: odom
 map_update_interval: 0.5
-maxUrange: 5.5
-maxRange: 6.1
+maxUrange: 7.5
+maxRange: 10.1
 
 minimumScore: 200
 
