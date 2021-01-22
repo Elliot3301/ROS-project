@@ -24,5 +24,3 @@ DWAPlannerROS:
   sim_granularity: 0.02
   vx_samples: 6
   vtheta_samples: 20
-
-
