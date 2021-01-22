@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+
+  <node pkg="student_pkg" name="bottles" type="bottle_goals.py" output="screen"> 
+    <rosparam file="$(find student_pkg)/bottles.yaml" command="load"/>
+  </node>
+</launch>
