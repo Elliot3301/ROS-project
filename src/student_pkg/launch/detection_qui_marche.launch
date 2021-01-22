@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="student_pkg" name="detection" type="detection_qui_marche.py" output="screen">
+  </node>
+</launch>
