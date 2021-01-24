@@ -1,1 +1,5 @@
-
+<?xml version="1.0"?>
+<launch>
+  <include file="$(find student_pkg)/launch/mapping.launch" />
+  <include file="$(find student_pkg)/launch/bottle_goals.launch" />
+</launch>

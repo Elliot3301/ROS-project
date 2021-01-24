@@ -51,6 +51,6 @@ Le launch file à exécuter est exploration.launch dans le package student_pkg.
 
 roslaunch exploration.launch student_pkg
 
-(ce launch file lance les launch files navigation.launch, detection.launch et bottle_goals.launch)
+(ce launch file lance les launch files mapping.launch et bottle_goals.launch)
 
 Le launch file bottle_goals.launch lance l'exécution du script python bottle_goals.py, qui donne au robot les positions successives à atteindre afin d'explorer efficacement la map.
