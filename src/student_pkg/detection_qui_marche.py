@@ -27,7 +27,7 @@ class LoadFeature(object):
     
         self.image_sub = rospy.Subscriber("/camera/rgb/image_raw",Image,self.camera_callback)
         self.image_depth_sub = rospy.Subscriber("/camera/depth/image_raw",Image,self.camera_depth_callback)
-        self.pose_sub = rospy.Subscriber("/odom",Pose,self.camera_callback)
+        self.pose_sub = rospy.Subscriber("/odom",Pose,self.position_callback)
         self.bridge_object = CvBridge()
         self.x = 4
 
