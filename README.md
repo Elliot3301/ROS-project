@@ -29,7 +29,7 @@ rosrun rviz rviz
 
 Le launch file à exécuter est mapping.launch dans le package student_pkg.
 
-roslaunch mapping.launch student_pkg
+roslaunch student_pkg mapping.launch
 
 (ce launch file lance les launch files navigation.launch et detection.launch. navigation.launch est le launch file du challenge 1 et detection.launch est le launch file qui gère lance la détection de la canette et la publication de sa position)
 
@@ -49,7 +49,7 @@ rosrun rviz rviz
 
 Le launch file à exécuter est exploration.launch dans le package student_pkg.
 
-roslaunch exploration.launch student_pkg
+roslaunch student_pkg exploration.launch
 
 (ce launch file lance les launch files mapping.launch et bottle_goals.launch)
 
