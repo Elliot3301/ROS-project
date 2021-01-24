@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <include file="$(find student_pkg)/launch/navigation.launch" />
+  <include file="$(find student_pkg)/launch/detection.launch" />
+</launch>
